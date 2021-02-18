@@ -2,6 +2,6 @@
   width:200px;
   height: 200px;
   margin: 20px auto;
-  background: #E0E0E0 url(resources/main-tile-top-left.png) no-repeat top left;
+  background: #f0f0f0 url(resources/main-tile-top-left.png) no-repeat 10px 10px;
  
 }
