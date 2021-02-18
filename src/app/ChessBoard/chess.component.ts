@@ -3,9 +3,9 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'chess-board',
   templateUrl: './chess.component.html',
-  styleUrls: ['./chess.component.css']
+  styleUrls: ['./chess.component.css'],
 })
 
-export class ChessBoard {
+export class ChessBoardComponent {
   @Input() id:  string;
  }

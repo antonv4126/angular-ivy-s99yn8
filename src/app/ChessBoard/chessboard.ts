@@ -3,6 +3,27 @@ enum Suit { BLACK = 1, WHITE = 2, RED = 3};
 const darkField  = '#996430'; //rgb(153, 100, 48)
 const lightField = '#ddBD97'; //(221, 189, 151)
 
+const blackPawn = '';
+const blackRook = '';
+const blackKnight = '';
+const blackBishop = '';
+const blackQueen = '';
+const blackKing = '';
+
+const whitePawn = '';
+const whiteRook = '';
+const whiteKnight = '';
+const whiteBishop = '';
+const whiteQueen = '';
+const whiteKing = '';
+
+const redPawn = '';
+const redRook = '';
+const redKnight = '';
+const redBishop = '';
+const redQueen = '';
+const redKing = '';
+
 class ChessBoard {
 
 private canvas:  HTMLCanvasElement;
@@ -404,7 +425,7 @@ this.redViewR = [
 		    				   		thisPiece = blackKnight;
 		    				   		break;
 		    				   	case Piece.BISHOP:
-		    				   		thisPiece = blackBisshop;
+		    				   		thisPiece = blackBishop;
 		    				   		break;
 		    				   	case Piece.KING:
 		    				   		thisPiece = blackKing;
@@ -426,7 +447,7 @@ this.redViewR = [
 		    				   		thisPiece = whiteKnight;
 		    				   		break;
 		    				   	case Piece.BISHOP:
-		    				   		thisPiece = whiteBisshop;
+		    				   		thisPiece = whiteBishop;
 		    				   		break;
 		    				   	case Piece.KING:
 		    				   		thisPiece = whiteKing;
@@ -448,7 +469,7 @@ this.redViewR = [
 		    				   		thisPiece = redKnight;
 		    				   		break;
 		    				   	case Piece.BISHOP:
-		    				   		thisPiece = redBisshop;
+		    				   		thisPiece = redBishop;
 		    				   		break;
 		    				   	case Piece.KING:
 		    				   		thisPiece = redKing;
