@@ -3,26 +3,26 @@ enum Suit { BLACK = 1, WHITE = 2, RED = 3};
 const darkField  = '#996430'; //rgb(153, 100, 48)
 const lightField = '#ddBD97'; //(221, 189, 151)
 
-const blackPawn = '';
-const blackRook = '';
-const blackKnight = '';
-const blackBishop = '';
-const blackQueen = '';
-const blackKing = '';
-
-const whitePawn = '';
-const whiteRook = '';
-const whiteKnight = '';
-const whiteBishop = '';
-const whiteQueen = '';
-const whiteKing = '';
-
-const redPawn = '';
-const redRook = '';
-const redKnight = '';
-const redBishop = '';
-const redQueen = '';
-const redKing = '';
+var blackPawn = new Image(); blackPawn.src = "https://3pchess.nl/images/pawn_bck.png";
+var blackRook = new Image(); blackRook.src = "https://3pchess.nl/images/rook_bck.png";
+var blackKnight = new Image(); blackKnight.src =  "https://3pchess.nl/images/knight_bck.png";
+var blackBishop = new Image(); blackBishop.src = "https://3pchess.nl/images/bishop_bck.png";
+var blackKing = new Image(); blackKing.src = "https://3pchess.nl/images/king_bck.png";
+var blackQueen = new Image(); blackQueen.src = "https://3pchess.nl/images/queen_bck.png";
+	    
+var whitePawn = new Image(); whitePawn.src = "https://3pchess.nl/images/pawn_wht.png";
+var whiteRook = new Image(); whiteRook.src = "https://3pchess.nl/images/rook_wht.png";
+var whiteKnight = new Image(); whiteKnight.src = "https://3pchess.nl/images/knight_wht.png";
+var whiteBishop = new Image(); whiteBishop.src = "https://3pchess.nl/images/bishop_wht.png";
+var whiteKing = new Image(); whiteKing.src = "https://3pchess.nl/images/king_wht.png";
+var whiteQueen = new Image(); whiteQueen.src = "https://3pchess.nl/images/queen_wht.png";
+	    
+var redPawn = new Image(); redPawn.src = "https://3pchess.nl/images/pawn_red.png";
+var redRook = new Image(); redRook.src = "https://3pchess.nl/images/rook_red.png";
+var redKnight = new Image(); redKnight.src = "https://3pchess.nl/images/knight_red.png";
+var redBishop = new Image(); redBishop.src = "https://3pchess.nl/images/bishop_red.png";
+var redKing = new Image(); redKing.src = "https://3pchess.nl/images/king_red.png";
+var redQueen = new Image(); redQueen.src = "https://3pchess.nl/images/queen_red.png";
 
 class ChessBoard {
 

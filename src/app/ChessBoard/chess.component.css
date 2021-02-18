@@ -5,3 +5,10 @@
   background: #f0f0f0 url(resources/main-tile-top-left.png) no-repeat 10px 10px;
  
 }
+
+.licht {
+  width:200px;
+  height: 200px;
+  margin: 20px auto;
+  border: solid 1px #e0e050;
+ }

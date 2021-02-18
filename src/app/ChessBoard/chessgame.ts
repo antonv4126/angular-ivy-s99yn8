@@ -1,23 +1,4 @@
-var blackPawn = new Image(); blackPawn.src = "images/pawn_bck.png";
-var blackRook = new Image(); blackRook.src = "images/rook_bck.png";
-var blackKnight = new Image(); blackKnight.src =  "images/knight_bck.png";
-var blackBisshop = new Image(); blackBisshop.src = "images/bishop_bck.png";
-var blackKing = new Image(); blackKing.src = "images/king_bck.png";
-var blackQueen = new Image(); blackQueen.src = "images/queen_bck.png";
-	    
-var whitePawn = new Image(); whitePawn.src = "images/pawn_wht.png";
-var whiteRook = new Image(); whiteRook.src = "images/rook_wht.png";
-var whiteKnight = new Image(); whiteKnight.src = "images/knight_wht.png";
-var whiteBisshop = new Image(); whiteBisshop.src = "images/bishop_wht.png";
-var whiteKing = new Image(); whiteKing.src = "images/king_wht.png";
-var whiteQueen = new Image(); whiteQueen.src = "images/queen_wht.png";
-	    
-var redPawn = new Image(); redPawn.src = "images/pawn_red.png";
-var redRook = new Image(); redRook.src = "images/rook_red.png";
-var redKnight = new Image(); redKnight.src = "images/knight_red.png";
-var redBisshop = new Image(); redBisshop.src = "images/bishop_red.png";
-var redKing = new Image(); redKing.src = "images/king_red.png";
-var redQueen = new Image(); redQueen.src = "images/queen_red.png";
+
 
 
 var game1 = new Chessgame("board1");
