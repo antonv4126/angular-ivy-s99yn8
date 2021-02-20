@@ -1,11 +1,34 @@
-.donker {
-  width:200px;
-  height: 200px;
-  margin: 20px auto;
-  background: #f0f0f0 url(resources/main-tile-top-left.png) no-repeat 10px 10px;
+.donker-header {
+  width:300px;
+  height: 100px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-zaken.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+
+
+  ;
  
 }
 
+.donker-main {
+  width:350px;
+  height: 200px;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px 10px 50px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-bl.png) no-repeat bottom left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-br.png) no-repeat bottom right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-b.png) repeat-x bottom left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+
+
+  ;
+ 
+}
 .licht {
   width:200px;
   height: 200px;

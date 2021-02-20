@@ -8,4 +8,7 @@ import { Component, Input } from '@angular/core';
 
 export class ChessBoardComponent {
   @Input() id:  string;
+  @Input() headertxt:  string;
+  @Input() maintxt:  string;
+  @Input() tiletype: string;
  }
