@@ -1,6 +1,71 @@
-.donker-header {
-  width:300px;
-  height: 100px;
+.afgerond {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-afgerond.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.beoordelen {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-beoordelen.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.indexeren {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-indexeren.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.nieuw {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-nieuw.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.rapportages {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-rapportages.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.verdelen {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 100px;
+  background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-verdelen.png) no-repeat top left,
+   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tr.png) no-repeat top right,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
+  url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
+}
+
+.zaken {
+  height: 80px;
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 100px;
   background: url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-tl-zaken.png) no-repeat top left,
@@ -8,14 +73,9 @@
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-t.png) repeat-x top left,
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
-
-
-  ;
- 
 }
 
-.donker-main {
-  width:350px;
+.tile-body {
   height: 200px;
   margin: 0px 10px 10px 10px;
   padding: 0px 10px 10px 50px;
@@ -24,11 +84,8 @@
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-l.png) repeat-y top left,
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-b.png) repeat-x bottom left,
   url(https://stackblitz.com/files/angular-ivy-s99yn8/github/antonv4126/angular-ivy-s99yn8/master/src/app/ChessBoard/resources/Keesy-main-tile-r.png) repeat-y top right
-
-
-  ;
- 
 }
+
 .licht {
   width:200px;
   height: 200px;
